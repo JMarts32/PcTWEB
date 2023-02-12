@@ -2,7 +2,7 @@ const URL = "https://gist.githubusercontent.com/josejbocanegra/b1873c6b7e7321443
 
 fetch(URL).then(res=>res.json()).then(res=>{
     organize(res);
-})
+});
 
 let correlation = {};
 let finalcorralation = [];
