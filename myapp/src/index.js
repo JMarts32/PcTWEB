@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Post from './Post';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+  <Post author="Juanito" content="El post es para que paniz aprenda a jugar" likes="0" />
+  <Post author="Paniz" content="Bobo malo" likes="300" />
+  <Post author="Agui" content="STOP IP" likes="50000" />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

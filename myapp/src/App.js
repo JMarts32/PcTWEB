@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprender Riact es para los diseñadores
         </a>
       </header>
     </div>
