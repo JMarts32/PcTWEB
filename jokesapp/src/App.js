@@ -5,7 +5,6 @@ import Heroes from './components/Heroes';
 function App() {
   return (
     <div>
-      <Joke />
       <Heroes />
     </div>
   );
